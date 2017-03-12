@@ -1,0 +1,9 @@
+{
+  "name": "netlify-git-sample",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run clone",
+    "clone": "mkdir -p theme; cd theme; git clone https://github.com/matsuoshi/netlify-git-from.git"
+  }
+}
+
